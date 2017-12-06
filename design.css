@@ -1,0 +1,110 @@
+@font-face{
+	src: url(fonts/Montserrat-Bold.ttf);
+	font-family: 'montserrat-bold';
+	src: url(fonts/Montserrat-ExtraLight.ttf);
+	font-family: 'montserrat-extralight';
+	src: url(fonts/Montserrat-Regular.ttf);
+	font-family: 'montserrat-regular';
+	src: url(fonts/Montserrat-Light.ttf);
+	font-family: 'montserrat-light';
+	src:url(fonts/Montserrat-SemiBold.ttf);
+	font-family: 'montserrat-semibold';
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-top{
+    background-color: #04E4A2;
+    width: 100%;
+    height: 20px;
+}
+.header-bottom{
+    background-color: #E94643;
+    width: 100%;
+    height: 70px;
+}
+.header-title h2{
+	font-family: 'montserrat-bold';
+	color: white;
+	padding-top: 20px;
+}
+.header-contact h4{
+	font-family: 'tahoma';
+	text-transform: uppercase;
+	color: white;
+	width: 96px;
+	font-size: 15px;
+	display: inline-block;
+	border-bottom: 2px solid yellow;
+	padding: 20px 0 5px 5px;
+}
+.content-top{
+	width: 100%;
+	height: 100px;
+	background-color: #EF5450;
+}
+.content-area{
+	background: url(images/body.jpg);
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.content-area h2{
+    font-family: 'montserrat-regular';
+    color: #fff;
+    padding: 50px 0;
+    text-align: justify;
+}
+.content-area p{
+   font-family: 'montserrat-extralight';
+   color: #fff;
+   text-align: justify;
+}
+.content-button{
+	float: right;
+	padding-top: 50px;
+}
+.content-button a{
+	color: #fff;
+	background-color: #04E4A2;
+	font-family: 'montserrat-regular';
+	border: 1px solid 04E4A2;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+.form-area{
+	padding-top: 200px;
+	font-family: 'montserrat-regular';
+}
+.form-area h2{
+   color: #EF5350;
+}
+.form-area i{
+	color: #69F0AE;
+	font-size: 20px;
+}
+.form-area .query{
+	padding-top: 0;
+	padding-bottom: 80px;
+	padding-right: 100px;
+	padding-left: 0;
+}
+.form-area button{
+	padding: 10px 25px;
+	background-color: #EF5350;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	float: right;
+}
+/*content ends*/
+.footer-area{
+	padding-bottom: 30px;
+	font-family: 'montserrat-light';
+}
+.footer-area i{
+	font-size: 32px;
+	color: #08E4A3;
+}
